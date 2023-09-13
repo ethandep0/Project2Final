@@ -1,6 +1,6 @@
-# Project Name
+# Project 2 - Calculator w/ horizontal capabilities
 
-Description of the project ...
+This project is an extension of project 1 (android calculator) with capabilities that allow for horizontal use (sin,cos,tan buttons, saving of variables between switches of the orientation).
 
 ## Functionality 
 
@@ -26,7 +26,7 @@ The following **extensions** are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of the calculator:
 
 <img src='Walkthrough.gif' title='Video Walkthrough' width='50%' alt='Video Walkthrough'/>
 
