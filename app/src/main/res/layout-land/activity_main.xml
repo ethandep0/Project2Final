@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calculatorText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.285"
+        android:layout_alignParentTop="true"
+        android:text="@string/calculatorText"
+        android:textAlignment="textEnd"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calculatorText">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            >
+
+            <Button
+                android:id="@+id/clearButton"
+                android:text="@string/clear"
+                style="@style/CustomButtonStyleLAND"/>
+
+
+            <Button
+                android:id="@+id/negPosButton"
+                android:text="@string/negPos"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/percentageButton"
+                android:text="@string/percentage"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/divideButton"
+                android:text="@string/divide"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/sinButton"
+                android:text="@string/sin"
+                android:textAllCaps="false"
+                style="@style/CustomButtonStyleLAND"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/sevenButton"
+                android:text="@string/seven"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/eightButton"
+                android:text="@string/eight"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/nineButton"
+                android:text="@string/nine"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/multiplyButton"
+                android:text="@string/multiply"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/cosButton"
+                android:text="@string/cos"
+                android:textAllCaps="false"
+                style="@style/CustomButtonStyleLAND"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/fourButton"
+                android:text="@string/four"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/fiveButton"
+                android:text="@string/five"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/sixButton"
+                android:text="@string/six"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/subtractButton"
+                android:text="@string/subtract"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/tanButton"
+                android:text="@string/tan"
+                android:textAllCaps="false"
+                style="@style/CustomButtonStyleLAND"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/oneButton"
+                android:text="@string/one"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/twoButton"
+                android:text="@string/two"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/threeButton"
+                android:text="@string/three"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/addButton"
+                android:text="@string/add"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/Log10Button"
+                android:text="@string/Log10"
+                android:textAllCaps="false"
+                style="@style/CustomButtonStyleLAND"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/zeroButton"
+                android:text="@string/zero"
+                android:layout_weight="2"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/decimalButton"
+                android:text="@string/decimal"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/equalsButton"
+                android:text="@string/equals"
+                style="@style/CustomButtonStyleLAND"/>
+
+            <Button
+                android:id="@+id/lnButton"
+                android:text="@string/ln"
+                android:textAllCaps="false"
+                style="@style/CustomButtonStyleLAND"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
